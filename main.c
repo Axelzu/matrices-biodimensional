@@ -22,6 +22,14 @@ int main(int argc, char const *argv[])
             }
         }
     }
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d\t", matrix[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
